@@ -1,0 +1,15 @@
+# version
+version: "3.8"
+
+# 서비스 블록
+## 서비스명(이미지, 컨테이너 이름, 볼륨, working_dir, 포트번호, command 등)
+services:
+  streamlit:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    restart: always
+
+    

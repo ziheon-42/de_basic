@@ -1,0 +1,10 @@
+artifact_location: file:///home/jiehon/Desktop/de_basic/docker_streamlit_mlops_ex/mlruns/174424039500293090/models/m-59771f62ff47422d8ea1827b1351fe50/artifacts
+creation_timestamp: 1750303195551
+experiment_id: '174424039500293090'
+last_updated_timestamp: 1750303196878
+model_id: m-59771f62ff47422d8ea1827b1351fe50
+model_type: null
+name: model
+source_run_id: 1927b083d2e44cc08ce77fcd06bde884
+status: 2
+status_message: null

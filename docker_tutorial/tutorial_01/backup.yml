@@ -1,0 +1,16 @@
+# version
+version: "3.8"
+
+# 서비스 블록
+## 서비스명(이미지, 컨테이너 이름, 볼륨, working_dir, 포트번호, command 등)
+services:
+  streamlit:
+    image: python:3.10-slim
+    container_name: iris_streamlit
+    volumes:
+      - .:/app
+    working_dir: /app
+    ports:
+      - "8501:8501"
+    command: >
+      sh -c "pip install --no-cache-dir -r requirements && streamlit run app.py --server.address=0.0.0.0"

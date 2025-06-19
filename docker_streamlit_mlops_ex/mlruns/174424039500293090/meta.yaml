@@ -1,0 +1,6 @@
+artifact_location: file:///home/jiehon/Desktop/de_basic/docker_streamlit_mlops_ex/mlruns/174424039500293090
+creation_time: 1750303155893
+experiment_id: '174424039500293090'
+last_update_time: 1750303155893
+lifecycle_stage: active
+name: iris_Classification

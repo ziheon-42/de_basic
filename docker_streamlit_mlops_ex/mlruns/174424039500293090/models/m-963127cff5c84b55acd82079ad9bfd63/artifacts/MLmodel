@@ -1,0 +1,22 @@
+artifact_path: file:///home/jiehon/Desktop/de_basic/docker_streamlit_mlops_ex/mlruns/174424039500293090/models/m-963127cff5c84b55acd82079ad9bfd63/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.18
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.0
+mlflow_version: 3.1.0
+model_id: m-963127cff5c84b55acd82079ad9bfd63
+model_size_bytes: 177230
+model_uuid: m-963127cff5c84b55acd82079ad9bfd63
+prompts: null
+run_id: 16aa860278fa4b8db8e8d9b897e537eb
+utc_time_created: '2025-06-19 03:19:16.535164'

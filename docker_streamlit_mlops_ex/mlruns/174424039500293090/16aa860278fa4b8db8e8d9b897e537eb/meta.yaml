@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jiehon/Desktop/de_basic/docker_streamlit_mlops_ex/mlruns/174424039500293090/16aa860278fa4b8db8e8d9b897e537eb/artifacts
+deleted_time: 1750303315737
+end_time: 1750303157849
+entry_point_name: ''
+experiment_id: '174424039500293090'
+lifecycle_stage: deleted
+run_id: 16aa860278fa4b8db8e8d9b897e537eb
+run_name: gregarious-stoat-184
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750303156463
+status: 4
+tags: []
+user_id: jiehon

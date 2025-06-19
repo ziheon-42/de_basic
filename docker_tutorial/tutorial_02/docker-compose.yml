@@ -1,0 +1,23 @@
+version: "3.9"
+services: 
+  # api
+  api:
+    build: ./app # local app
+    container_name: ml_api
+    ports: 
+     - "8000:8000"
+    volumes:
+      # local app/컨테이너 app From Dockerfile
+      - ./app:/app
+
+  # streamlit
+  streamlit:
+    build: ./app
+    container_name: ml_ui
+    command: streamlit run app.py --server.port=8501 --server.address=0.0.0.0
+    ports:
+     - "8501:8501"
+    volumes:
+     - ./app:/app
+    depends_on:
+      - api # streamlit이 api에 의존하는 관계임을 설정
