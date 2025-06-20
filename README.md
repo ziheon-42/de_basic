@@ -1,10 +1,5 @@
-# de_basic
-
-# 두 번째 튜토리얼
-
-# 이번 시간의 목표
-- fastapi 컨테이너 띄우고
-- streamlit 컨테이너 띄우고
-- 위 두 컨테이너를 동시에 관리 했음
-
-# 주요 사항 메모
+# boston 파일 관리
+- 임시 테스트로 boston.csv 파일 만들기(get_boston.py 참조)
+- boston.csv 파일을 수동으로 옮김
+-- airflow/datasets 폴더 직접 생성
+-- airflow/datasets/ 이동
